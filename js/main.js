@@ -39,4 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
   menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
+
+  setInterval(function() {
+    plusSlides(1);
+  }, 5000)
 });
+
