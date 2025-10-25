@@ -44,4 +44,3 @@ document.addEventListener('DOMContentLoaded', () => {
     plusSlides(1);
   }, 5000)
 });
-
